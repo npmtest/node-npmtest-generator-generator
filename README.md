@@ -1,6 +1,6 @@
 # npmtest-generator-generator
 
-#### basic test coverage for  generator-generator (v3.1.0)  [![npm package](https://img.shields.io/npm/v/npmtest-generator-generator.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-generator-generator) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-generator-generator.svg)](https://travis-ci.org/npmtest/node-npmtest-generator-generator)
+#### basic test coverage for  [generator-generator (v3.1.0)](https://github.com/yeoman/generator-generator#readme)  [![npm package](https://img.shields.io/npm/v/npmtest-generator-generator.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-generator-generator) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-generator-generator.svg)](https://travis-ci.org/npmtest/node-npmtest-generator-generator)
 
 #### Generate a Yeoman generator
 
@@ -35,31 +35,11 @@
 ```json
 
 {
-    "name": "generator-generator",
-    "version": "3.1.0",
-    "description": "Generate a Yeoman generator",
-    "author": "Yeoman team",
-    "files": [
-        "app",
-        "subgenerator"
-    ],
-    "keywords": [
-        "yeoman-generator",
-        "yeoman",
-        "generator",
-        "inception",
-        "init",
-        "create",
-        "boilerplate"
-    ],
-    "repository": "yeoman/generator-generator",
-    "scripts": {
-        "test": "jest",
-        "pretest": "eslint . --fix",
-        "prepublish": "nsp check"
+    "author": {
+        "name": "Yeoman team"
     },
-    "engines": {
-        "node": ">=4.0.0"
+    "bugs": {
+        "url": "https://github.com/yeoman/generator-generator/issues"
     },
     "dependencies": {
         "chalk": "^1.1.3",
@@ -72,6 +52,7 @@
         "yeoman-generator": "^1.0.0",
         "yosay": "^2.0.0"
     },
+    "description": "Generate a Yeoman generator",
     "devDependencies": {
         "coveralls": "^2.12.0",
         "eslint": "^3.18.0",
@@ -82,6 +63,14 @@
         "yeoman-assert": "^3.0.0",
         "yeoman-test": "^1.6.0"
     },
+    "directories": {},
+    "dist": {
+        "shasum": "bdf3448e6d986e3a14116f93625bf7c0ca832023",
+        "tarball": "https://registry.npmjs.org/generator-generator/-/generator-generator-3.1.0.tgz"
+    },
+    "engines": {
+        "node": ">=4.0.0"
+    },
     "eslintConfig": {
         "extends": "xo-space",
         "env": {
@@ -89,13 +78,66 @@
             "node": true
         }
     },
+    "files": [
+        "app",
+        "subgenerator"
+    ],
+    "gitHead": "53272ca77bec1a08bef86ac84ef92bcbfd3cc6a3",
+    "homepage": "https://github.com/yeoman/generator-generator#readme",
     "jest": {
         "testEnvironment": "node",
         "testPathIgnorePatterns": [
             "templates"
         ]
     },
+    "keywords": [
+        "yeoman-generator",
+        "yeoman",
+        "generator",
+        "inception",
+        "init",
+        "create",
+        "boilerplate"
+    ],
     "license": "MIT",
+    "maintainers": [
+        {
+            "name": "addyosmani"
+        },
+        {
+            "name": "arthurvr"
+        },
+        {
+            "name": "eddiemonge"
+        },
+        {
+            "name": "mischah"
+        },
+        {
+            "name": "passy"
+        },
+        {
+            "name": "paulirish"
+        },
+        {
+            "name": "sboudrias"
+        },
+        {
+            "name": "sindresorhus"
+        }
+    ],
+    "name": "generator-generator",
+    "optionalDependencies": {},
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/yeoman/generator-generator.git"
+    },
+    "scripts": {
+        "prepublish": "nsp check",
+        "pretest": "eslint . --fix",
+        "test": "jest"
+    },
+    "version": "3.1.0",
     "bin": {}
 }
 ```
